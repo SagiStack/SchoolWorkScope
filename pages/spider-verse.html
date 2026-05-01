@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Man: Across the Spider-Verse - Cinema Scoop</title>
+    <link rel="stylesheet" href="../MainElement.css" />
+    <style>
+        .movie-hero {
+            height: 60vh;
+            min-height: 400px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), var(--color-bg)), url('../Images/Movies PNG/spiderman.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 4rem;
+            margin-bottom: -4rem;
+            /* Overlap effect */
+            position: relative;
+            z-index: 1;
+        }
+
+        .movie-detail-container {
+            position: relative;
+            z-index: 2;
+            background: linear-gradient(to bottom, transparent, var(--color-bg) 10%);
+        }
+    </style>
+    <script src="../js/auth.js"></script>
+</head>
+
+<body>
+
+    <div class="movie-hero">
+    </div>
+
+    <div class="movie-detail-container">
+        <a href="../Main.html" class="back-btn">← Back to Home</a>
+
+        <div class="movie-header">
+            <h1 class="movie-title">Spider-Man: Across the Spider-Verse</h1>
+            <div class="movie-meta">
+                <span class="meta-item">2023</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Animation / Action / Adventure</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Dir. Joaquim Dos Santos</span>
+            </div>
+        </div>
+
+        <h2 class="section-heading">Plot Summary</h2>
+        <p class="movie-plot">
+            Miles Morales returns for the next chapter of the Oscar®-winning Spider-Verse saga, Spider-Man: Across the
+            Spider-Verse. After reuniting with Gwen Stacy, Brooklyn's full-time, friendly neighborhood Spider-Man is
+            catapulted across the Multiverse, where he encounters a team of Spider-People charged with protecting its
+            very existence.
+            <br><br>
+            But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other
+            Spiders and must redefine what it means to be a hero so he can save the people he loves most.
+        </p>
+
+        <div style="margin-bottom: 40px;">
+            <a href="https://www.youtube.com/watch?v=tg52up16eq0" target="_blank" class="btn-trailer"
+                style="max-width: 200px;">Watch Trailer</a>
+        </div>
+
+        <h2 class="section-heading">Top Cast</h2>
+        <div class="cast-grid">
+            <div class="cast-card">
+                <div class="cast-name">Shameik Moore</div>
+                <div class="cast-role">Miles Morales</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Hailee Steinfeld</div>
+                <div class="cast-role">Gwen Stacy</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Oscar Isaac</div>
+                <div class="cast-role">Miguel O'Hara</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Jake Johnson</div>
+                <div class="cast-role">Peter B. Parker</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Issa Rae</div>
+                <div class="cast-role">Jessica Drew</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

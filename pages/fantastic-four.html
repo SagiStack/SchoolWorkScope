@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantastic Four: First Steps - Cinema Scoop</title>
+    <link rel="stylesheet" href="../MainElement.css" />
+    <style>
+        .movie-hero {
+            height: 60vh;
+            min-height: 400px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), var(--color-bg)), url('../Images/Movies PNG/backgrounds/fantastic-four-backdrop.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 4rem;
+            margin-bottom: -4rem;
+            /* Overlap effect */
+            position: relative;
+            z-index: 1;
+        }
+
+        .movie-detail-container {
+            position: relative;
+            z-index: 2;
+            background: linear-gradient(to bottom, transparent, var(--color-bg) 10%);
+        }
+    </style>
+    <script src="../js/auth.js"></script>
+</head>
+
+<body>
+
+    <div class="movie-hero">
+    </div>
+
+    <div class="movie-detail-container">
+        <a href="../Main.html" class="back-btn">← Back to Home</a>
+
+        <div class="movie-header">
+            <h1 class="movie-title">Fantastic Four: First Steps</h1>
+            <div class="movie-meta">
+                <span class="meta-item">2025</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Sci-Fi / Action</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Dir. Matt Shakman</span>
+            </div>
+        </div>
+
+        <h2 class="section-heading">Plot Summary</h2>
+        <p class="movie-plot">
+            Set in a vibrant, retro-futuristic 1960s universe, "Fantastic Four: First Steps" introduces Marvel's
+            First Family—Reed Richards, Sue Storm, Johnny Storm, and Ben Grimm—as established heroes juggling
+            their cosmic responsibilities with their tight-knit family dynamics.
+            <br><br>
+            Their world is threatened when the Silver Surfer arrives as a herald for the planet-devouring
+            entity, Galactus. Facing an impossible choice when Galactus demands a sacrifice to spare their
+            Earth, the team must unite like never before. With high-stakes cosmic battles and the fate of their
+            world hanging in the balance, the Fantastic Four must prove that family is the greatest power of
+            all.
+        </p>
+
+        <div style="margin-bottom: 40px;">
+            <a href="https://www.youtube.com/watch?v=18QQWa5MEcs" target="_blank" class="btn-trailer"
+                style="max-width: 200px;">Watch Trailer</a>
+        </div>
+
+        <h2 class="section-heading">Top Cast</h2>
+        <div class="cast-grid">
+            <div class="cast-card">
+                <div class="cast-name">Pedro Pascal</div>
+                <div class="cast-role">Reed Richards / Mr. Fantastic</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Vanessa Kirby</div>
+                <div class="cast-role">Sue Storm / Invisible Woman</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Ebon Moss-Bachrach</div>
+                <div class="cast-role">Ben Grimm / The Thing</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Joseph Quinn</div>
+                <div class="cast-role">Johnny Storm / Human Torch</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Julia Garner</div>
+                <div class="cast-role">Shalla-Bal / Silver Surfer</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Ralph Ineson</div>
+                <div class="cast-role">Galactus</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

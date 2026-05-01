@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding Nemo (2003) - Cinema Scoop</title>
+    <link rel="stylesheet" href="../MainElement.css" />
+    <style>
+        .movie-hero {
+            width: 100%;
+            height: 60vh;
+            min-height: 400px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), var(--color-bg)), url('../Images/Movies PNG/backgrounds/nemo.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 4rem;
+            margin-bottom: -4rem;
+            /* Overlap effect */
+            position: relative;
+            z-index: 1;
+        }
+
+        .movie-detail-container {
+            position: relative;
+            z-index: 2;
+            background: linear-gradient(to bottom, transparent, var(--color-bg) 10%);
+        }
+    </style>
+    <script src="../js/auth.js"></script>
+</head>
+
+<body>
+
+    <div class="movie-hero">
+    </div>
+
+    <div class="movie-detail-container">
+        <a href="../Main.html" class="back-btn">← Back to Home</a>
+
+        <div class="movie-header">
+            <h1 class="movie-title">Finding Nemo</h1>
+            <div class="movie-meta">
+                <span class="meta-item">2003</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Animation / Adventure</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Dir. Andrew Stanton</span>
+            </div>
+        </div>
+
+        <h2 class="section-heading">Plot Summary</h2>
+        <p class="movie-plot">
+            Marlin, an overprotective clownfish, embarks on a perilous journey across the ocean to find his captured
+            son, Nemo, joined by the forgetful Dory.
+            <br><br>
+            After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish named Marlin sets
+            out on a journey to bring him home. He is joined by a friendly but forgetful blue tang fish named Dory.
+            Together, they encounter vegetarian sharks, surfer dude turtles, hypnotic jellyfish, and hungry seagulls.
+            Meanwhile, Nemo plots his escape from a dentist's fish tank with the help of the "Tank Gang".
+        </p>
+
+        <div style="margin-bottom: 40px;">
+            <a href="https://www.youtube.com/watch?v=2zLkasSlsz4" target="_blank" class="btn-trailer"
+                style="max-width: 200px;">Watch Trailer</a>
+        </div>
+
+        <h2 class="section-heading">Top Cast</h2>
+        <div class="cast-grid">
+            <div class="cast-card">
+                <div class="cast-name">Albert Brooks</div>
+                <div class="cast-role">Marlin</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Ellen DeGeneres</div>
+                <div class="cast-role">Dory</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Alexander Gould</div>
+                <div class="cast-role">Nemo</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Willem Dafoe</div>
+                <div class="cast-role">Gill</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Geoffrey Rush</div>
+                <div class="cast-role">Nigel</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Brad Garrett</div>
+                <div class="cast-role">Bloat</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

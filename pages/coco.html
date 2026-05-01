@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coco - Cinema Scoop</title>
+    <link rel="stylesheet" href="../MainElement.css" />
+    <style>
+        .movie-hero {
+            height: 60vh;
+            min-height: 400px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), var(--color-bg)), url('../Images/Movies PNG/coco.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 4rem;
+            margin-bottom: -4rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .movie-detail-container {
+            position: relative;
+            z-index: 2;
+            background: linear-gradient(to bottom, transparent, var(--color-bg) 10%);
+        }
+    </style>
+    <script src="../js/auth.js"></script>
+</head>
+
+<body>
+
+    <div class="movie-hero">
+    </div>
+
+    <div class="movie-detail-container">
+        <a href="../Main.html" class="back-btn">← Back to Home</a>
+
+        <div class="movie-header">
+            <h1 class="movie-title">Coco</h1>
+            <div class="movie-meta">
+                <span class="meta-item">2017</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Animation / Adventure / Family</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Dir. Lee Unkrich</span>
+            </div>
+        </div>
+
+        <h2 class="section-heading">Plot Summary</h2>
+        <p class="movie-plot">
+            Despite his family's baffling generations-old ban on music, Miguel dreams of becoming an accomplished
+            musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the
+            stunning and colorful Land of the Dead following a mysterious chain of events.
+            <br><br>
+            Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to
+            unlock the real story behind Miguel's family history.
+        </p>
+
+        <div style="margin-bottom: 40px;">
+            <a href="https://www.youtube.com/watch?v=xlnPHQ3TLX8" target="_blank" class="btn-trailer"
+                style="max-width: 200px;">Watch Trailer</a>
+        </div>
+
+        <h2 class="section-heading">Top Cast</h2>
+        <div class="cast-grid">
+            <div class="cast-card">
+                <div class="cast-name">Anthony Gonzalez</div>
+                <div class="cast-role">Miguel</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Gael García Bernal</div>
+                <div class="cast-role">Héctor</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Benjamin Bratt</div>
+                <div class="cast-role">Ernesto de la Cruz</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Alanna Ubach</div>
+                <div class="cast-role">Mamá Imelda</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

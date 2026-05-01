@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ted (2012) - Cinema Scoop</title>
+    <link rel="stylesheet" href="../MainElement.css" />
+    <style>
+        .movie-hero {
+            width: 100%;
+            height: 60vh;
+            min-height: 400px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), var(--color-bg)), url('../Images/Movies PNG/backgrounds/ted_bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 4rem;
+            margin-bottom: -4rem;
+            /* Overlap effect */
+            position: relative;
+            z-index: 1;
+        }
+
+        .movie-detail-container {
+            position: relative;
+            z-index: 2;
+            background: linear-gradient(to bottom, transparent, var(--color-bg) 10%);
+        }
+    </style>
+    <script src="../js/auth.js"></script>
+</head>
+
+<body>
+
+    <div class="movie-hero">
+    </div>
+
+    <div class="movie-detail-container">
+        <a href="../Main.html" class="back-btn">← Back to Home</a>
+
+        <div class="movie-header">
+            <h1 class="movie-title">Ted</h1>
+            <div class="movie-meta">
+                <span class="meta-item">2012</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Comedy / Fantasy</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Dir. Seth MacFarlane</span>
+            </div>
+        </div>
+
+        <h2 class="section-heading">Plot Summary</h2>
+        <p class="movie-plot">
+            John Bennett, a man whose childhood wish of bringing his teddy bear to life came true, now must decide
+            between keeping the relationship with the bear, Ted, or his girlfriend, Lori. Ted, now a foul-mouthed,
+            pot-smoking slacker, has been John's constant companion for decades.
+            <br><br>
+            As John tries to navigate adulthood and his relationship with Lori, Ted's antics and their bond threaten to
+            derail his future. It's a hilarious and heartwarming story about friendship and growing up.
+        </p>
+
+        <div style="margin-bottom: 40px;">
+            <a href="https://www.youtube.com/results?search_query=Ted+Trailer" target="_blank" class="btn-trailer"
+                style="max-width: 200px;">Watch Trailer</a>
+        </div>
+
+        <h2 class="section-heading">Top Cast</h2>
+        <div class="cast-grid">
+            <div class="cast-card">
+                <div class="cast-name">Mark Wahlberg</div>
+                <div class="cast-role">John Bennett</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Mila Kunis</div>
+                <div class="cast-role">Lori Collins</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Seth MacFarlane</div>
+                <div class="cast-role">Ted (Voice)</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Giovanni Ribisi</div>
+                <div class="cast-role">Donny</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

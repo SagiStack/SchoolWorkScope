@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dark Knight - Cinema Scoop</title>
+    <link rel="stylesheet" href="../MainElement.css" />
+    <style>
+        .movie-hero {
+            height: 60vh;
+            min-height: 400px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), var(--color-bg)), url('../Images/Movies PNG/knigth.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 4rem;
+            margin-bottom: -4rem;
+            /* Overlap effect */
+            position: relative;
+            z-index: 1;
+        }
+
+        .movie-detail-container {
+            position: relative;
+            z-index: 2;
+            background: linear-gradient(to bottom, transparent, var(--color-bg) 10%);
+        }
+    </style>
+    <script src="../js/auth.js"></script>
+</head>
+
+<body>
+
+    <div class="movie-hero">
+    </div>
+
+    <div class="movie-detail-container">
+        <a href="../Main.html" class="back-btn">← Back to Home</a>
+
+        <div class="movie-header">
+            <h1 class="movie-title">The Dark Knight</h1>
+            <div class="movie-meta">
+                <span class="meta-item">2008</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Action / Crime / Drama</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Dir. Christopher Nolan</span>
+            </div>
+        </div>
+
+        <h2 class="section-heading">Plot Summary</h2>
+        <p class="movie-plot">
+            When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of
+            the greatest psychological and physical tests of his ability to fight injustice.
+            <br><br>
+            With the help of Lieutenant Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the
+            remaining criminal organizations that plague the city streets. The partnership proves to be effective, but
+            they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the
+            terrified citizens of Gotham as the Joker.
+        </p>
+
+        <div style="margin-bottom: 40px;">
+            <a href="https://www.youtube.com/watch?v=LDG9bisJEaI" target="_blank" class="btn-trailer"
+                style="max-width: 200px;">Watch Trailer</a>
+        </div>
+
+        <h2 class="section-heading">Top Cast</h2>
+        <div class="cast-grid">
+            <div class="cast-card">
+                <div class="cast-name">Christian Bale</div>
+                <div class="cast-role">Bruce Wayne / Batman</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Heath Ledger</div>
+                <div class="cast-role">Joker</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Aaron Eckhart</div>
+                <div class="cast-role">Harvey Dent</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Michael Caine</div>
+                <div class="cast-role">Alfred</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Maggie Gyllenhaal</div>
+                <div class="cast-role">Rachel</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Gary Oldman</div>
+                <div class="cast-role">Gordon</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

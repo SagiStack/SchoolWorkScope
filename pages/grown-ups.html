@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grown Ups (2010) - Cinema Scoop</title>
+    <link rel="stylesheet" href="../MainElement.css" />
+    <style>
+        .movie-hero {
+            width: 100%;
+            height: 60vh;
+            min-height: 400px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), var(--color-bg)), url('../Images/Movies PNG/backgrounds/grown_ups_bg.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 4rem;
+            margin-bottom: -4rem;
+            /* Overlap effect */
+            position: relative;
+            z-index: 1;
+        }
+
+        .movie-detail-container {
+            position: relative;
+            z-index: 2;
+            background: linear-gradient(to bottom, transparent, var(--color-bg) 10%);
+        }
+    </style>
+    <script src="../js/auth.js"></script>
+</head>
+
+<body>
+
+    <div class="movie-hero">
+    </div>
+
+    <div class="movie-detail-container">
+        <a href="../Main.html" class="back-btn">← Back to Home</a>
+
+        <div class="movie-header">
+            <h1 class="movie-title">Grown Ups</h1>
+            <div class="movie-meta">
+                <span class="meta-item">2010</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Comedy</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Dir. Dennis Dugan</span>
+            </div>
+        </div>
+
+        <h2 class="section-heading">Plot Summary</h2>
+        <p class="movie-plot">
+            After their high school basketball coach passes away, five good friends and former teammates reunite for a
+            Fourth of July holiday weekend. They decide to spend the holiday weekend with their families at a lake house
+            where they had celebrated their championship years prior.
+            <br><br>
+            Picking up where they left off, they discover why growing older doesn't mean growing up. The weekend becomes
+            a hilarious journey of reconnecting, reliving their youth, and showing their kids how to have good
+            old-fashioned fun.
+        </p>
+
+        <div style="margin-bottom: 40px;">
+            <a href="https://www.youtube.com/results?search_query=Grown+Ups+Trailer" target="_blank" class="btn-trailer"
+                style="max-width: 200px;">Watch Trailer</a>
+        </div>
+
+        <h2 class="section-heading">Top Cast</h2>
+        <div class="cast-grid">
+            <div class="cast-card">
+                <div class="cast-name">Adam Sandler</div>
+                <div class="cast-role">Lenny Feder</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Kevin James</div>
+                <div class="cast-role">Eric Lamonsoff</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Chris Rock</div>
+                <div class="cast-role">Kurt McKenzie</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">David Spade</div>
+                <div class="cast-role">Marcus Higgins</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Rob Schneider</div>
+                <div class="cast-role">Rob Hilliard</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

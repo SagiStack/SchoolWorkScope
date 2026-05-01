@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Story 4 - Cinema Scoop</title>
+    <link rel="stylesheet" href="../MainElement.css" />
+    <style>
+        .movie-hero {
+            height: 60vh;
+            min-height: 400px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), var(--color-bg)), url('../Images/Movies PNG/toy-story-poster-4-one-sheet-zusatzartikel.png');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 4rem;
+            margin-bottom: -4rem;
+            /* Overlap effect */
+            position: relative;
+            z-index: 1;
+        }
+
+        .movie-detail-container {
+            position: relative;
+            z-index: 2;
+            background: linear-gradient(to bottom, transparent, var(--color-bg) 10%);
+        }
+    </style>
+    <script src="../js/auth.js"></script>
+</head>
+
+<body>
+
+    <div class="movie-hero">
+    </div>
+
+    <div class="movie-detail-container">
+        <a href="../Main.html" class="back-btn">← Back to Home</a>
+
+        <div class="movie-header">
+            <h1 class="movie-title">Toy Story 4</h1>
+            <div class="movie-meta">
+                <span class="meta-item">2019</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Animation / Adventure / Comedy</span>
+                <span class="meta-item">•</span>
+                <span class="meta-item">Dir. Josh Cooley</span>
+            </div>
+        </div>
+
+        <h2 class="section-heading">Plot Summary</h2>
+        <p class="movie-plot">
+            Woody has always been confident about his place in the world and that his priority is taking care of his
+            kid, whether that's Andy or Bonnie. But when Bonnie adds a reluctant new toy called "Forky" to her room, a
+            road trip adventure alongside old and new friends will show Woody how big the world can be for a toy.
+        </p>
+
+        <div style="margin-bottom: 40px;">
+            <a href="https://www.youtube.com/watch?v=wmiIUN-7qhE" target="_blank" class="btn-trailer"
+                style="max-width: 200px;">Watch Trailer</a>
+        </div>
+
+        <h2 class="section-heading">Top Cast</h2>
+        <div class="cast-grid">
+            <div class="cast-card">
+                <div class="cast-name">Tom Hanks</div>
+                <div class="cast-role">Woody</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Tim Allen</div>
+                <div class="cast-role">Buzz Lightyear</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Annie Potts</div>
+                <div class="cast-role">Bo Peep</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Tony Hale</div>
+                <div class="cast-role">Forky</div>
+            </div>
+            <div class="cast-card">
+                <div class="cast-name">Keanu Reeves</div>
+                <div class="cast-role">Duke Caboom</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
